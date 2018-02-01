@@ -39,20 +39,35 @@
     
 }
 
-.flex-grid {
+/*.flex-grid {
   display: flex;
   justify-content: space-between;
 }
 .flex-grid-thirds .col {
     width: 33%;
+}*/
+
+.flex-grid {
+    display: flex;
+    background-color: white;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
-.col {
+.flex-grid .col {
+    width: 20%;
+}
+
+.flex-grid .mid {
+    width: 60%;
+}
+
+.col, .mid {
     background-color: white;
     padding: 2rem;
     text-align: center;
     width: 100%;
-    margin: 0rem 0.25rem;
+    margin: 0rem 1rem;
 }
 
 
