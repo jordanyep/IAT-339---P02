@@ -177,6 +177,7 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
     border-color: #84D3FA;
     border: solid 5px;
 }
+
 .navButton {
     display: inline-block;
     font-weight: 300;
@@ -205,4 +206,8 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
 
     .navButton {
     }
+}
+
+#sitemapLink {
+    text-align: center;
 }
