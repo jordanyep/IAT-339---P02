@@ -198,12 +198,11 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
 
 @media (max-width: 48.50em) {
 
-	.heading {
-		margin: 0rem 0rem;
+    .heading {
+        margin: 0rem 0rem;
         line-height: 3rem;
-	}
-    
+    }
+
     .navButton {
-        
     }
 }
