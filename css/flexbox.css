@@ -90,6 +90,14 @@
 	}
     
     .col {
-        margin: 0.25rem 0rem;
+        margin: 0.25rem 0.25rem;
+    }
+    
+    .flex-grid .col {
+        width: 100%;
+    }
+
+    .flex-grid .mid {
+        width: 100%;
     }
 }
