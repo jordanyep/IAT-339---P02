@@ -1,5 +1,5 @@
 *, *::after, *::before {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .box {
@@ -79,15 +79,15 @@
 
 .nav-item {
     -webkit-flex: 1 1 auto;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
     
 @media (max-width: 48.50em) {
 
-	.box, .flex-grid {
-		flex-wrap: wrap;
-	}
+    .box, .flex-grid {
+        flex-wrap: wrap;
+    }
     
     .col {
         margin: 0.25rem 0.25rem;
