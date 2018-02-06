@@ -19,18 +19,19 @@
 /* column grid */
 .grid-col {
     flex: 1;
-    margin: 0;
-    padding: 3rem 1.2rem 50rem 1.2rem;      /* change these padding values when actual content is added */
+    padding: 2rem;
     border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
+/* wide column grid */
 .grid-mid {
-    flex: 3.5;
-    margin: 0;
-    padding: 3rem 1.2rem 50rem 1.2rem;      /* change these padding values when actual content is added */
+    flex: 4;
+    padding: 2rem;
     border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
+/* 3x3 grid for menu items */
 .grid-menu {
     flex: 1;
+    padding: 0 2rem 2rem 0;
 }
