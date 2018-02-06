@@ -30,3 +30,7 @@
     padding: 3rem 1.2rem 50rem 1.2rem;      /* change these padding values when actual content is added */
     border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
+
+.grid-menu {
+    flex: 1;
+}
