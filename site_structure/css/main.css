@@ -67,7 +67,7 @@ img {
     border-right: 2px solid #FBF5F5;
 }
 
-.nav-button:hover, .nav-button:active, .nav-button:focus {
+.nav-button:hover, .nav-button:active, .nav-button:focus, .current-page {
     font-weight: bold;
     border-radius: 0;
     padding: 0.5rem 2rem;
