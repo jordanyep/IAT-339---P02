@@ -1,0 +1,7 @@
+@media all and (max-width: 48.50em) { 
+  
+  .box .grid-menu {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
