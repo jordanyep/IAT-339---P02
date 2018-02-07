@@ -1,5 +1,5 @@
 *, *::after, *::before {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .box {
@@ -28,16 +28,7 @@
     flex: 1;
     width: 33%;
     background-color: white;
-    
 }*/
-
-.navigation, .footer {
-    display: flex;
-    width: 100%;
-    background-color: white;
-    margin: 0.25rem;
-    
-}
 
 /*.flex-grid {
   display: flex;
@@ -47,29 +38,30 @@
     width: 33%;
 }*/
 
-.flex-grid {
-    display: flex;
+/* grid that spans the full width of screen */
+.grid-full-width {
     background-color: white;
-    flex-grow: 1;
-    justify-content: space-between;
-}
-
-.flex-grid .col {
-    width: 20%;
-}
-
-.flex-grid .mid {
-    width: 60%;
-}
-
-.col, .mid {
-    background-color: white;
-    padding: 2rem;
+    margin: 0;
+    padding: 1.2rem;
+    flex: 1;
+    border: 0.3rem solid #EEDEDE;
     text-align: center;
-    width: 100%;
-    margin: 0rem 1rem;
 }
 
+/* column grid container */
+.grid-col-container {
+    display: flex;
+    text-align: center;
+}
+
+/* column grid */
+.grid-col {
+    background-color: white;
+    margin: 0;
+    padding: 1.2rem 1.2rem 20rem 1.2rem;
+    flex: 1;
+    border: 0.3rem solid #EEDEDE;
+}
 
 .section-item {
     display: flex;
@@ -79,25 +71,21 @@
 
 .nav-item {
     -webkit-flex: 1 1 auto;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
     
 @media (max-width: 48.50em) {
 
-	.box, .flex-grid {
-		flex-wrap: wrap;
-	}
-    
-    .col {
-        margin: 0.25rem 0.25rem;
-    }
-    
-    .flex-grid .col {
-        width: 100%;
+    .box {
+        flex-wrap: wrap;
     }
 
-    .flex-grid .mid {
-        width: 100%;
+    .grid-col-container {
+        flex-direction: column;
+    }
+
+    .grid-col {
+        padding-bottom: 10rem;
     }
 }
