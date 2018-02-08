@@ -35,3 +35,21 @@
     flex: 1;
     padding: 0 2rem 2rem 0;
 }
+
+/* 2x2 grid for the pricing */
+.grid-price {
+    flex: 1;
+    padding: 0 2rem 2rem 0;
+}
+
+/* grid for lists */
+.grid-list {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  
+    align-items: flex-start;
+    justify-content: flex-end;
+
+  
+}
