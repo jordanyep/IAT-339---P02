@@ -5,6 +5,11 @@
     justify-content: space-around;
   }
   
+  .grid-mid h2, .grid-mid .item-label {}
+    text-align: center;
+    
+  }
+  
   /*.grid-list { 
     flex-direction: column;
   }*/
