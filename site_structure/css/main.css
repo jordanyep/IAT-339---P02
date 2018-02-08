@@ -39,6 +39,7 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -47,7 +48,13 @@ h3 {
 }
 
 p {
-  line-height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(114, 114, 114, 0.15);
+    margin: 2rem 0;
 }
 
 /* images =========================================== */
@@ -106,7 +113,6 @@ ul  {
 }
 
 ul li, ol li {
-    
     background-color: rgba( 252, 252, 252, 0.161 );
     padding-left: 0.5rem;
 }
@@ -116,7 +122,7 @@ ol {
 }
 
 ul h2, ol h2 {
-  letter-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
 }
 
 /* in-text links ==================================== */
@@ -179,4 +185,24 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.9rem;
     padding: 5rem;
+}
+
+/* menu items ======================================= */
+
+#featured-flavours img, #all-flavours img {
+    transition: 0.45s;
+}
+
+#featured-flavours img:hover, #all-flavours img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#featured-flavours p, #all-flavours p {
+    text-align: center;
+}
+
+.item-label {
+    font-style: italic;
+    opacity: 0.5;
 }
