@@ -198,6 +198,11 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
     cursor: pointer;
 }
 
+#featured-flavours a:hover, #all-flavours a:hover {
+    padding: 0;
+    border-radius: 0;
+}
+
 #featured-flavours p, #all-flavours p {
     text-align: center;
 }
@@ -205,4 +210,21 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
 .item-label {
     font-style: italic;
     opacity: 0.5;
+}
+
+/* nutrition table ================================== */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #C59BA8;
+    /*padding: 1rem 4rem 1rem 0;*/
+}
+
+th {
+    background-color: #C59BA8;
+    color: white;
 }
