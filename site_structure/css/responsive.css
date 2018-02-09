@@ -1,12 +1,12 @@
 @media all and (max-width: 48.50em) { 
   
-  .box, .grid-mid {
+  .box {
     flex-direction: column;
     justify-content: space-around;
   }
   
   
-  .grid-mid h2, .grid-mid .item-label {}
+  .grid-mid h2, .grid-mid .item-label {
     text-align: center;
     
   }
