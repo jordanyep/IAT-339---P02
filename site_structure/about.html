@@ -59,6 +59,16 @@
           
           <h1>Contact Us:</h1>
           <form method="post" action="#">
+            
+            <label for="selectOption">Select option:</label>
+            <select name="cars">
+              <option value="general">General</option>
+              <option value="complaint">Complaint</option>
+              <option value="inquiry">Inquiry</option>
+              <option value="job">Job Application</option>
+            </select>
+            
+            <br>
             <label for="textField">Name:</label>
             <input type="text" id="textField" placeholder="your name goes here">
             
@@ -76,7 +86,9 @@
             
             <label for="textArea">Insert your comments:</label>
 <!--            <textarea name="textarea">Write something here</textarea>-->
-            <input type="text" id="textField" placeholder="type your comments here">
+            <textarea name="message" rows="10" cols="50">
+            Type your message here
+            </textarea>
             
             <br>
             
