@@ -171,6 +171,11 @@ button:hover {
     background-color: rgba(132,211,250,1);
 }
 
+.center-align {
+    display: block;
+    margin: auto;
+}
+
 /* text field ======================================= 
 
 input[type=text] {
