@@ -55,7 +55,7 @@
           <img src="img/locations.png" alt="locations">
           <div class="grid-list">
             <ul>
-              <h2>CANADA</h2>
+              <li><strong>CANADA</strong></li>
               <li>Central City Centre, Surrey</li>
               <li>Guildford Town Centre, Surrey</li>
               <li>Coquitlam Centre, Coquitlam</li>
@@ -63,7 +63,7 @@
               <li>Gastown, Vancouver</li>
             </ul>
             <ul>
-              <h2>INTERNATIONAL</h2>
+              <li><strong>INTERNATIONAL</strong></li>
               <li>Seattle, Washington</li>
               <li>Manila, Philippines</li>
             </ul>
@@ -75,7 +75,7 @@
           <form method="post" action="#">
             
             <label for="selectOption">Select option:</label><br>
-            <select name="cars">
+            <select name="selectOption">
               <option value="general">General</option>
               <option value="complaint">Complaint</option>
               <option value="inquiry">Inquiry</option>
@@ -98,9 +98,9 @@
             
             <br>
             
-            <label for="textArea">Insert your comments:</label><br>
+            <label for="message">Insert your comments:</label><br>
 <!--            <textarea name="textarea">Write something here</textarea>-->
-            <textarea name="message" rows="10" cols="50">
+            <textarea id="message" name="user_message" rows="10" cols="50">
             Type your message here
             </textarea>
             
