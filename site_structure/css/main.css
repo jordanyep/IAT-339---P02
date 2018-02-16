@@ -199,6 +199,8 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
 /* menu items ======================================= */
 
 #featured-flavours img, #all-flavours img {
+    -webkit-filter: drop-shadow(0.2rem 0.2rem 0.2rem #C9C9C9);
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem #C9C9C9);
     transition: 0.45s;
 }
 
