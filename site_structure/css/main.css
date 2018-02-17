@@ -80,8 +80,10 @@ img {
 .navbar img {
   width: 10%;
   height: 10%;
-  margin-left: 1rem;
+  margin: 0rem 2rem;
 }
+
+
 
 .nav-button {
     display: inline-block;
@@ -100,6 +102,16 @@ img {
     border-bottom: 3px solid black;
     color: #727272;
 }
+
+/*
+
+a:hover {
+    color: white;
+    background-color: #CC99A8;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+*/
 
 /* lists ============================================ */
 

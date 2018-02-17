@@ -62,6 +62,25 @@
   align-items: center;
 }
 
+#journey {
+  order: 1;
+}
+
+#about {
+  order: 2;
+}
+
+#logo {
+  order: 3;
+}
+
+#offers {
+  order: 4;
+}
+
+#order {
+  order: 5;
+}
 /* parallax header ================================== */
 .heading {
   background-image: url(../img/interior.jpg);
