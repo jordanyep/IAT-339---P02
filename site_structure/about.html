@@ -17,22 +17,13 @@
   </head>
 
   <body>
-    <section id="about-parallax">
-      <div class="box">
-        <p class="grid-col">&nbsp;</p>
-        <div class="heading">
-          <div class="circle">ABOUT US</div>
-        </div>
-        <p class="grid-col">&nbsp;</p>
-      
-      </div>
-    </section>
     <section id="header-section">
       <!-- the milkshake co. logo -->
-      <img class="img-logo" src="img/company-logo.png" alt="The Milkshake Co. logo">
+<!--      <img class="img-logo" src="img/company-logo.png" alt="The Milkshake Co. logo">-->
 
       <!-- main navigation bar -->
       <nav class="navbar box">
+        <img src="img/company-logo.png" alt="The Milkshake Co. logo">
         <a href="menu.html" class="nav-button nav-item">Menu</a>
         <a href="journey.html" class="nav-button nav-item">Journey</a>
         <a href="about.html" class="nav-button nav-item current-page">About</a>
@@ -40,13 +31,23 @@
         <a href="order.html" class="nav-button nav-item">Order</a>
       </nav>
     </section>
+    
+     <section id="about-parallax">
+      <div class="box">
+        <div class="heading">
+<!--          <div class="circle">ABOUT US</div>-->
+          <h1>About Us:</h1>
+        </div>
+      
+      </div>
+    </section>
 
     <!-- page content -->
     <section id="content-section"> 
       <div class="box">
         <p class="grid-col">&nbsp;</p>
         <div class="grid-mid">
-          <h1>About Us:</h1>
+<!--          <h1>About Us:</h1>-->
           <p>The Milkshake Co. was established in 1995 by Romeo &#38; Juliet McAllister from Vancouver, British Columbia. They started with a blender and an idea and the rest is history. The first Milkshake Co. stand was built on the corner of Gastown, where customers found that time flew when they tried the McAllisters’ milkshakes. From there, they expanded their brand and by 2004, The Milkshake Co. had grown to an international brand.</p>
 
           <hr>
@@ -75,7 +76,7 @@
           <form method="post" action="#">
             
             <label for="selectOption">Select option:</label><br>
-            <select name="selectOption">
+            <select id="selectOption">
               <option value="general">General</option>
               <option value="complaint">Complaint</option>
               <option value="inquiry">Inquiry</option>

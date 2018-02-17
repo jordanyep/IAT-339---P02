@@ -74,8 +74,13 @@ img {
 /* navbar =========================================== */
 
 .navbar {
-    background-color: white;
     text-align: center;
+}
+
+.navbar img {
+  width: 10%;
+  height: 10%;
+  margin-left: 1rem;
 }
 
 .nav-button {
@@ -198,8 +203,11 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
 /* header & footer ================================== */
 
 #header-section {
-    padding-bottom: 0;
-    background-color: white;
+  padding-bottom: 0;
+  /*background-color: white;*/
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 140;
+  padding: 1rem;
 }
 
 #footer-section {
