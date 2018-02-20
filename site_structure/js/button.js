@@ -8,3 +8,28 @@ function clickMenu() {
 function clickOrder() {
     window.location.href = "order.html";
 }
+
+// go to order confirmation page
+function clickPlaceOrder() {
+    window.location.href = "order-confirm.html#content-section";
+}
+
+function clickConfirmOrder() {
+    window.location.href="order-complete.html#content-section";
+}
+
+// reset order page forms/checkboxes (clear fields)
+function clickClear() {
+    document.getElementById("contact-info-form").reset();
+    document.getElementById("request").value = "";
+
+    // *** there's probably a better way to do this haha... ***
+    document.getElementById("topping-1").checked = false;
+    document.getElementById("topping-2").checked = false;
+    document.getElementById("topping-3").checked = false;
+    document.getElementById("topping-4").checked = false;
+    document.getElementById("topping-5").checked = false;
+    document.getElementById("topping-6").checked = false;
+    document.getElementById("topping-7").checked = false;
+    document.getElementById("topping-8").checked = false;
+}

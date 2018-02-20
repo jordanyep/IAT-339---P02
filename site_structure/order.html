@@ -99,7 +99,7 @@
 
               <!-- contact info text fields -->
               <h3>1. Contact Information</h3>
-              <form>
+              <form id="contact-info-form">
                 <label for="name">Name:</label>
                 <input name="name" type="text" id="name">
                 <br>
@@ -120,10 +120,51 @@
                 <option value="manila">Manila, Philippines</option>
               </select>
 
+              <!-- time dropdown -->
+              <h3>3. Pick-up time:</h3>
+              <!-- <p"><strong>For:</strong> February 22, 2018</p> -->
+
+              <!-- hour -->
+              <select>
+                <option value="12">12</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+              </select>
+
+              <!-- minute -->
+              <select>
+                <option value="00">: 00</option>
+                <option value="10">: 10</option>
+                <option value="20">: 20</option>
+                <option value="30">: 30</option>
+                <option value="40">: 40</option>
+                <option value="50">: 50</option>
+              </select>
+
+              <!-- am/pm -->
+              <select>
+                <option value="am">am</option>
+                <option value="pm">pm</option>
+              </select>
+
+              <!-- comment field -->
+              <h3>4. Special requests:</h3>
+              <textarea name="request" id="request"></textarea><br>
+              <label for="request">E.g. Allergies, dietary</label>
+
               <hr>
 
-              <button class="button primary-btn">Place Order</button>
-              <button class="button secondary-btn">Cancel</button>
+              <button class="button primary-btn" onclick="clickPlaceOrder()">Place Order</button>
+              <button class="button secondary-btn" onclick="clickClear()">Cancel</button>
             </div>
 
             <!-- order summary column -->
@@ -147,5 +188,8 @@
     <section id="footer-section">
       <p>Copyright © Averi Balleza &amp; Jordan Yep</p>
     </section>
+
+    <!-- call javascript -->
+    <script src="js/button.js"></script>
   </body>
 </html>

@@ -331,3 +331,10 @@ input {
 label input {
     margin-right: 1rem;
 }
+
+/* text area */
+textarea {
+    margin-top: 1rem;
+    width: 70%;
+    height: 10rem;
+}
