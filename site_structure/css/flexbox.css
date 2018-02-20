@@ -121,12 +121,22 @@
   text-align: center;
 }
 
+.heading img, .heading h2 {
+  max-width: 60%;
+  margin-top: -10rem;
+}
+
 .heading-journey {
   background-image: url(../img/milkshakes-3.jpg);
 }
 
 .heading-about {
   background-image: url(../img/interior.jpg);
+}
+
+.heading-home {
+  background-image: url(../img/interior.jpg);
+  
 }
 
 .heading-offers {
