@@ -11,6 +11,18 @@
     
   }
   
+  #journey {
+  order: 2;
+}
+
+  #about {
+    order: 3;
+  }
+
+  #logo {
+    order: 1;
+  }
+
   /*.grid-list { 
     flex-direction: column;
   }*/

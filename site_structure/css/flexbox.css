@@ -56,3 +56,74 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
+
+/* grid for nav */
+.navbar {
+  align-items: center;
+}
+
+#journey {
+  order: 1;
+  flex: 1;
+}
+
+#about {
+  order: 2;
+  flex: 1;
+}
+
+#logo {
+  order: 3;
+  padding: 0;
+  align-content: center;
+  flex: 1;
+  justify-content: center;
+  align-self: center;
+}
+
+#offers {
+  order: 4;
+  flex: 1;
+}
+
+#order {
+  order: 5;
+  flex: 1;
+}
+/* parallax header ================================== */
+.heading {
+  background-image: url(../img/interior.jpg);
+  width: 100%;
+  height: 100%;
+  padding: 18rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.heading h1 {
+  text-align: center;
+  background-color: rgba(255,255,255,0.8);
+  padding: 4rem;
+  border-radius: 25rem;
+  border: 5px solid #5C5869;
+}
+
+/*.circle {
+  font-family: 'Amaranth', sans-serif;
+  margin:-10rem;
+  width:500px;
+  height:500px;
+  border-radius:25rem;
+  font-size:3rem;
+  color:#5C5869;
+  line-height:500px;
+  text-align:center;
+  background-color: rgba(255,255,255,0.8);
+  border: 5px solid #5C5869;
+}*/
