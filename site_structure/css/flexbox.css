@@ -4,57 +4,55 @@
 
 /* flexbox (container) */
 .box {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
 }
 
 /* navbar */
 .nav-item {
-    -webkit-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 /* column grid */
 .grid-col {
-    flex: 1;
-    padding: 2rem;
-    /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
+  flex: 1;
+  padding: 2rem;
+  /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
 /* wide column grid */
 .grid-mid {
-    flex: 4;
-    padding: 2rem;
-    /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
+  flex: 4;
+  padding: 2rem;
+  /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
 /* order form grid */
 .grid-order {
   flex: 3;
-  
 }
 
 .grid-order-info {
-  
   flex: 1;
 }
 
 /* 3x3 grid for menu items */
 .grid-menu {
-    flex: 1;
-    padding: 0 2rem 2rem 0;
+  flex: 1;
+  padding: 0 2rem 2rem 0;
 }
 
 /* grid for lists */
 .grid-list {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-  
-    align-items: flex-start;
-    justify-content: flex-end;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
 /* grid for nav */
