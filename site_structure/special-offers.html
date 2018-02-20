@@ -18,17 +18,23 @@
 
   <body>
     <section id="header-section">
-      <!-- the milkshake co. logo -->
-      <img class="img-logo" src="img/company-logo.png" alt="The Milkshake Co. logo">
-
       <!-- main navigation bar -->
       <nav class="navbar box">
-        <a href="menu.html" class="nav-button nav-item">Menu</a>
-        <a href="journey.html" class="nav-button nav-item">Journey</a>
-        <a href="about.html" class="nav-button nav-item">About</a>
-        <a href="special-offers.html" class="nav-button nav-item current-page">Special Offers</a>
-        <a href="order.html" class="nav-button nav-item">Order</a>
+        <a href="journey.html" id="journey" class="nav-button nav-item">Journey</a>
+        <a href="about.html" id="about" class="nav-button nav-item">About</a>
+        <a href="menu.html" id="logo" class="nav-button nav-item" ><img src="img/company-logo.png" alt="The Milkshake Co. logo"></a>
+        <a href="special-offers.html" id="offers" class="nav-button nav-item current-page">Special Offers</a>
+        <a href="order.html" id="order" class="nav-button nav-item">Order</a>
       </nav>
+    </section>
+
+    <!-- parallax image + page title -->
+     <section id="about-parallax">
+      <div class="box">
+        <div class="heading heading-offers">
+          <h1>Our Current Promotions:</h1>
+        </div>
+      </div>
     </section>
 
     <!-- page content -->
@@ -36,7 +42,6 @@
       <div class="box">
         <p class="grid-col">&nbsp;</p>
         <div class="grid-mid">
-          <h1>Our Current Promotions:</h1>
           <img src="img/promotion.jpg" alt="buy 2 get 1">
 <!--          <h3>Buy two milkshakes, and get one for free!</h3>-->
           <mark>buy one milkshake, get two for free</mark>
