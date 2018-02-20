@@ -78,9 +78,11 @@ img {
 }
 
 .navbar img {
+  display: block;
   width: 10%;
   height: 10%;
-  margin: 0rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -92,6 +94,10 @@ img {
     background-color: white;
     text-decoration: none;
     border-right: 2px solid #FBF5F5;
+}
+
+.nav-button img {
+  width: 6em;
 }
 
 .nav-button:hover, .nav-button:active, .nav-button:focus, .current-page {

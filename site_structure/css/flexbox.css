@@ -64,24 +64,31 @@
 
 #journey {
   order: 1;
+  flex: 1;
 }
 
 #about {
   order: 2;
+  flex: 1;
 }
 
 #logo {
   order: 3;
   padding: 0;
   align-content: center;
+  flex: 1;
+  justify-content: center;
+  align-self: center;
 }
 
 #offers {
   order: 4;
+  flex: 1;
 }
 
 #order {
   order: 5;
+  flex: 1;
 }
 /* parallax header ================================== */
 .heading {
