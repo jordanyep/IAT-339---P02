@@ -75,6 +75,7 @@ img {
 
 .navbar {
     text-align: center;
+    margin: 0rem 15rem;
 }
 
 .navbar img {
@@ -91,7 +92,6 @@ img {
     padding: 1rem 2rem;
     background-color: white;
     text-decoration: none;
-    border-right: 2px solid #FBF5F5;
 }
 
 .nav-button img {
