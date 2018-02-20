@@ -44,13 +44,14 @@
 
         <div class="grid-mid">
           <div class="box">
+            <!-- order input column -->
             <div class="grid-order">
-              <label for="name">Name:</label><br>
-              <input name="name" type="text" id="name">
+              <!-- basic order info section -->
+              <h2>Milkshake</h2>
+              <p>Choose a base flavour and size for your milkshake</p>
 
-              <br>
-
-              <label for="flavour">Select a flavour:</label><br>
+              <!-- flavour dropdown -->
+              <h3>1. Choose a flavour:</h3>
               <select id="flavour">
                 <option value="rc">Rusty Chocolate</option>
                 <option value="mocha">Aha! Cheesecake</option>
@@ -63,21 +64,77 @@
                 <option value="orange">Orange U Glad 2 C Me</option>
               </select>
 
-              <br>
-
-              <label for = "size">Select a size:</label><br>
+              <!-- size dropdown -->
+              <h3>2. Choose a size:</h3>
               <select id="size">
                 <option value="baby">The Baby</option>
                 <option value="midway">The Midway</option>
                 <option value="granddaddy">The Grand Daddy</option>
                 <option value="sorrows">The "Drown Your Sorrows"</option>
               </select>
+
+              <hr>
+
+              <!-- optional toppings section -->
+              <h2>Toppings</h2>
+              <p>Customize your milkshake by adding toppings ($0.50 each)</p>
+
+              <!-- toppings list -->
+              <form>
+                <label for="topping-1"><input type="checkbox" value="" id="topping-1" checked="checked">Cherries</label><br>
+                <label for="topping-2"><input type="checkbox" value="" id="topping-2" checked="checked">Nuts</label><br>
+                <label for="topping-3"><input type="checkbox" value="" id="topping-3">Sprinkles</label><br>
+                <label for="topping-4"><input type="checkbox" value="" id="topping-4">Chocolate Chips</label><br>
+                <label for="topping-5"><input type="checkbox" value="" id="topping-5">Strawberries</label><br>
+                <label for="topping-6"><input type="checkbox" value="" id="topping-6">Blueberries</label><br>
+                <label for="topping-7"><input type="checkbox" value="" id="topping-7">Bananas</label><br>
+                <label for="topping-8"><input type="checkbox" value="" id="topping-8">Whipped Cream</label><br>
+              </form>
+
+              <hr>
+
+              <!-- personal information section -->
+              <h2>Information</h2>
+              <p>Tell us how to get you your milkshake</p>
+
+              <!-- contact info text fields -->
+              <h3>1. Contact Information</h3>
+              <form>
+                <label for="name">Name:</label>
+                <input name="name" type="text" id="name">
+                <br>
+                <label for="email">Email:</label>
+                <input name="email" type="text" id="email">
+                <br>
+              </form>
+
+              <!-- store location dropdown -->
+              <h3>2. Choose a store:</h3>
+              <select id="size">
+                <option value="central">Central City Centre, Surrey</option>
+                <option value="guildford">Guildford Town Centre, Surrey</option>
+                <option value="coquitlam">Coquitlam Centre, Coquitlam</option>
+                <option value="waterfront">Waterfront Station, Vancouver</option>
+                <option value="gastown">Gastown, Vancouver</option>
+                <option value="seattle">Seattle, Washington</option>
+                <option value="manila">Manila, Philippines</option>
+              </select>
+
+              <hr>
+
+              <button class="button primary-btn">Place Order</button>
+              <button class="button secondary-btn">Cancel</button>
             </div>
 
+            <!-- order summary column -->
             <div class="grid-order-info">
-              <h2>Your order:</h2>
-              <p><strong>FLAVOUR:</strong> Mocha Fahood</p>
-              <p><strong>SIZE:</strong> The Grand Daddy</p>
+              <h2>Your Order:</h2>
+              <p>
+                <strong>Flavour:</strong><br>Rusty Chocolate<br><br>
+                <strong>Size:</strong><br>The Baby<br><br>
+                <strong>Toppings:</strong><br>+ Cherries<br>+ Nuts<br><br>
+                <strong>Total:<br>$8.00</strong>
+              </p>
             </div>
           </div>
         </div>

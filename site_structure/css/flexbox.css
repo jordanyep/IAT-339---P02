@@ -2,18 +2,13 @@
     box-sizing: border-box;
 }
 
+/* general use ====================================== */
+
 /* flexbox (container) */
 .box {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-}
-
-/* navbar */
-.nav-item {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
 }
 
 /* column grid */
@@ -30,6 +25,8 @@
   /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
+/* order page ======================================= */
+
 /* order form grid */
 .grid-order {
   flex: 3;
@@ -39,13 +36,17 @@
   flex: 1;
 }
 
+/* menu listing ===================================== */
+
 /* 3x3 grid for menu items */
 .grid-menu {
   flex: 1;
   padding: 0 2rem 2rem 0;
 }
 
-/* grid for lists */
+/* list structure =================================== */
+
+/* lists in about page */
 .grid-list {
   display: -webkit-flex;
   display: -ms-flex;
@@ -55,7 +56,14 @@
   justify-content: flex-end;
 }
 
-/* grid for nav */
+/* navbar structure ================================= */
+
+.nav-item {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
 .navbar {
   align-items: center;
 }
