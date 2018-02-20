@@ -113,6 +113,10 @@
   border: 5px solid #5C5869;
 }
 
+.heading-journey {
+  background-image: url(../img/milkshakes-3.jpg);
+}
+
 .heading-about {
   background-image: url(../img/interior.jpg);
 }
