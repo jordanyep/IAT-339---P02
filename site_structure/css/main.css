@@ -288,3 +288,53 @@ th {
     background-color: #C59BA8;
     color: white;
 }
+
+/* order & summary ================================== */
+
+.grid-order {
+    margin-right: 2rem;
+}
+
+.grid-order h3 {
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.grid-order-info h2 {
+    padding: 1rem 1rem;
+    background-color: #CB99A7;
+    color: #FBF5F5;
+}
+
+.grid-order-info p {
+    padding: 2rem 1rem;
+    background-color: white;
+}
+
+/* forms */
+form {
+    margin-top: 1.5rem;
+}
+
+/* dropdown lists */
+select {
+    /*margin: 1rem 0 1.5rem 0;*/
+    margin-top: 1rem;
+}
+
+/* spacing between checkbox list items */
+input {
+    margin: 1rem 0 0.5rem 0;
+}
+
+/* spacing between checkbox and label */
+label input {
+    margin-right: 1rem;
+}
+
+/* text area */
+textarea {
+    margin-top: 1rem;
+    width: 70%;
+    height: 10rem;
+}
