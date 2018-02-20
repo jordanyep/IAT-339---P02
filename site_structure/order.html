@@ -18,17 +18,23 @@
 
   <body>
     <section id="header-section">
-      <!-- the milkshake co. logo -->
-      <img class="img-logo" src="img/company-logo.png" alt="The Milkshake Co. logo">
-
       <!-- main navigation bar -->
       <nav class="navbar box">
-        <a href="menu.html" class="nav-button nav-item">Menu</a>
-        <a href="journey.html" class="nav-button nav-item">Journey</a>
-        <a href="about.html" class="nav-button nav-item">About</a>
-        <a href="special-offers.html" class="nav-button nav-item">Special Offers</a>
-        <a href="order.html" class="nav-button nav-item current-page">Order</a>
+        <a href="journey.html" id="journey" class="nav-button nav-item">Journey</a>
+        <a href="about.html" id="about" class="nav-button nav-item">About</a>
+        <a href="menu.html" id="logo" class="nav-button nav-item" ><img src="img/company-logo.png" alt="The Milkshake Co. logo"></a>
+        <a href="special-offers.html" id="offers" class="nav-button nav-item">Special Offers</a>
+        <a href="order.html" id="order" class="nav-button nav-item current-page">Order</a>
       </nav>
+    </section>
+
+    <!-- parallax image + page title -->
+     <section id="about-parallax">
+      <div class="box">
+        <div class="heading heading-order">
+          <h1>Order here:</h1>
+        </div>
+      </div>
     </section>
 
     <!-- page content -->
@@ -38,8 +44,6 @@
         <div class="grid-mid">
           <div class="box">
             <div class="grid-order">
-              <h1>Order here:</h1>
-
                 <label for="name">Name:</label><br>
                 <input name="name" type="text">
 
@@ -67,7 +71,6 @@
                   <option value="granddaddy">The Grand Daddy</option>
                   <option value="sorrows">The "Drown Your Sorrows"</option>
                 </select>
-
             </div>
             <div class="grid-order-info">
               <h2>Your order:</h2>
@@ -75,7 +78,6 @@
               <p><strong>SIZE:</strong> The Grand Daddy</p>
             </div>
             </div>
-          
         </div>
         <p class="grid-col">&nbsp;</p>
       </div>
