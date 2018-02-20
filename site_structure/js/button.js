@@ -20,7 +20,8 @@ function clickConfirmOrder() {
 
 // reset order page forms/checkboxes (clear fields)
 function clickClear() {
-    document.getElementById("contact-info-form").reset();
+    document.getElementById("name").value = "";
+    document.getElementById("number").value = "";
     document.getElementById("request").value = "";
 
     // *** there's probably a better way to do this haha... ***
