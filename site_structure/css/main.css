@@ -107,13 +107,9 @@ img {
     color: #727272;
 }
 
-.nav-button img, .nav-button img, .nav-button img {
-    border-bottom: none !important;
-    padding: 0rem !important;
-}
-
-.nav-button img:hover, .nav-button img:active, .nav-button img:focus {
-    border-bottom: none !important;
+/* removes navbar item hover effect for logo */
+#logo.nav-button:hover {
+    border-bottom: none;
 }
 
 /*
