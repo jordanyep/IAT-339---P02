@@ -20,10 +20,11 @@ function clickConfirmOrder() {
     window.location.href="order-complete.html#content-section";
 }
 
-// reset order page forms/checkboxes (clear fields)
-function clickClear() {
+// reset page forms/checkboxes (clear fields)
+function clickCancel() {
     document.getElementById("name").value = "";
     document.getElementById("number").value = "";
+    document.getElementById("email").value = "";
     document.getElementById("request").value = "";
 
     // *** there's probably a better way to do this haha... ***
