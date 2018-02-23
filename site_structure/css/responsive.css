@@ -1,3 +1,9 @@
+@media all and (max-width: 72.250em) {
+  .navbar {
+    margin: 0rem 5rem;
+  }
+}
+
 @media all and (max-width: 48.50em) { 
   
   .box {
@@ -26,7 +32,11 @@
   .navbar {
     text-align: center;
     margin: 0rem 0rem;
-}
+  }
+  .navbar img {
+    width: 10%;
+    height: 10%;
+  }
 
   /*.grid-list { 
     flex-direction: column;

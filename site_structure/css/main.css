@@ -66,9 +66,9 @@ img {
 }
 
 .img-logo {
-    padding: 2rem 0;
+    /*padding: 2rem 0;
     margin: 0 auto 2rem auto;
-    width: 15%;
+    width: 15%;*/
 }
 
 /* navbar =========================================== */
@@ -80,8 +80,10 @@ img {
 
 .navbar img {
     display: block;
+/*
     width: 10%;
     height: 10%;
+*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,7 +97,7 @@ img {
 }
 
 .nav-button img {
-    width: 6em;
+    /*width: 6em;*/
 }
 
 .nav-button:hover, .nav-button:active, .nav-button:focus, .current-page {
