@@ -67,43 +67,31 @@
           <hr>
 
           <h1>Contact Us:</h1>
-          <form method="post" action="#">
-            
-            <label for="selectOption">Select option:</label><br>
-            <select id="selectOption">
-              <option value="general">General</option>
-              <option value="complaint">Complaint</option>
-              <option value="inquiry">Inquiry</option>
-              <option value="job">Job Application</option>
-            </select>
-            
-            <br>
-            <label for="name-textField">Name:</label><br>
-            <input type="text" id="name-textField" placeholder="your name goes here">
-            
-            <br>
-            
-            <label for="email-textField">Email:</label><br>
-            <input type="text" id="email-textField" placeholder="email goes here">
-            
-            <br>
-            
-            <label for="num-textField">Phone number:</label><br>
-            <input type="text" id="num-textField" placeholder="phone number goes here">
-            
-            <br>
-            
-            <label for="message">Insert your comments:</label><br>
-<!--            <textarea name="textarea">Write something here</textarea>-->
-            <textarea id="message" name="user_message" rows="10" cols="50">
-            Type your message here
-            </textarea>
+          <h2>Got questions? We're happy to help!</h2>
+          <p>Send us an email here. Please indicate your intent through the following list:</p>
 
-            <br>
+          <select id="intent">
+            <option value="inquiry">Inquiry</option>
+            <option value="complaint">Complaint</option>
+            <option value="job-app">Job Application</option>
+            <option value="other">Other</option>
+          </select>
 
-            <button class="primary-btn">submit</button>
-            <button class="secondary-btn">cancel</button>
+          <form id="contact-info-form">
+            <label for="name">Name:</label>
+            <input name="name" type="text" id="name" value="John Doe">
+            <br>
+            <label for="email">Email:</label>
+            <input name="email" type="text" id="email" value="johndoe@email.com">
+            <br>
+            <label for="number">Phone:</label>
+            <input name="number" type="text" id="number" value="(123) 456-7890">
+            <br>
+            <textarea name="request" id="request">Will the Central City branch be open during the upcoming holiday?</textarea>
           </form>
+
+          <button class="primary-btn" onclick="clickCancel()">submit</button>
+          <button class="secondary-btn" onclick="clickCancel()">cancel</button>
 
           <hr>
 
@@ -122,5 +110,8 @@
     <section id="footer-section">
       <p>Copyright © Averi Balleza &amp; Jordan Yep</p>
     </section>
+
+    <!-- call javascript -->
+    <script src="js/button.js"></script>
   </body>
 </html>
