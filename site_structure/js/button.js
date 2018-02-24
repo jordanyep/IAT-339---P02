@@ -37,6 +37,16 @@ function clickCancelOrder() {
     document.getElementById("topping-8").checked = false;
 }
 
+// show confirmation message in after contact submission (about page)
+function clickSubmit() {
+    var message = document.getElementById("confirm-message");
+    message.classList.remove("hidden");
+    message.setAttribute("aria-hidden", "false");
+
+    // clear the forms
+    clickCancelContact();
+}
+
 // reset contact us forms (clear fields)
 function clickCancelContact() {
     document.getElementById("name").value = "";
@@ -44,3 +54,4 @@ function clickCancelContact() {
     document.getElementById("email").value = "";
     document.getElementById("request").value = "";
 }
+
