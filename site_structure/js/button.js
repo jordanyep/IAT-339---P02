@@ -20,11 +20,10 @@ function clickConfirmOrder() {
     window.location.href="order-complete.html#content-section";
 }
 
-// reset page forms/checkboxes (clear fields)
-function clickCancel() {
+// reset order page forms/checkboxes (clear fields)
+function clickCancelOrder() {
     document.getElementById("name").value = "";
     document.getElementById("number").value = "";
-    document.getElementById("email").value = "";
     document.getElementById("request").value = "";
 
     // *** there's probably a better way to do this haha... ***
@@ -36,4 +35,12 @@ function clickCancel() {
     document.getElementById("topping-6").checked = false;
     document.getElementById("topping-7").checked = false;
     document.getElementById("topping-8").checked = false;
+}
+
+// reset contact us forms (clear fields)
+function clickCancelContact() {
+    document.getElementById("name").value = "";
+    document.getElementById("number").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("request").value = "";
 }
