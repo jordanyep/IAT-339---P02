@@ -233,11 +233,24 @@ input[type=text]:active, input[type=text]:focus, input[type=text]:hover {
     padding: 1rem;
 }
 
-#footer-section {
+footer {
     background-color: #5C5869;
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.9rem;
     padding: 5rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+}
+
+footer h3 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: white;
+    opacity: 0.8;
+    font-weight: normal;
 }
 
 /* menu items ======================================= */
