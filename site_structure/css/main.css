@@ -369,3 +369,14 @@ textarea {
     visibility: hidden;
     display: none;
 }
+
+/* citations & style guide ========================== */
+
+#citations {
+    margin: 3rem 5rem;
+}
+
+#citations p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
