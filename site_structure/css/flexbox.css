@@ -108,6 +108,7 @@
   background-position: center;
   background-attachment: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 100;
@@ -130,8 +131,12 @@
 }
 
 .heading img, .heading h2 {
-  max-width: 60%;
-  margin-top: -10rem;
+  /*max-width: 60%;
+  max-height: 60%;
+  margin-top: -10rem;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading-journey {
