@@ -38,8 +38,10 @@
     height: 10%;
   }
 
-  /*.grid-list { 
-    flex-direction: column;
-  }*/
+  .heading img {
+    display: block;
+    margin: 2rem 8rem;
+    width: 80vw;
+  }
   
 }

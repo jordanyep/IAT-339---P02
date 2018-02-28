@@ -102,7 +102,7 @@
 .heading {
   width: 100%;
   height: 100%;
-  padding: 18rem;
+/*  padding: 18rem;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -130,13 +130,19 @@
   text-align: center;
 }
 
-.heading img, .heading h2 {
-  /*max-width: 60%;
-  max-height: 60%;
-  margin-top: -10rem;*/
+.heading img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2rem 18rem;
+  width: 30vw;
+}
+
+.heading img, .heading h2 {
+  animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .heading-journey {
@@ -149,6 +155,7 @@
 
 .heading-home {
   background-image: url(../img/interior.jpg);
+  height: 100vh;
   
 }
 
@@ -159,17 +166,3 @@
 .heading-order {
   background-image: url(../img/milkshakes.jpg);
 }
-
-/*.circle {
-  font-family: 'Amaranth', sans-serif;
-  margin:-10rem;
-  width:500px;
-  height:500px;
-  border-radius:25rem;
-  font-size:3rem;
-  color:#5C5869;
-  line-height:500px;
-  text-align:center;
-  background-color: rgba(255,255,255,0.8);
-  border: 5px solid #5C5869;
-}*/
