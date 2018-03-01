@@ -1,5 +1,5 @@
 @media all and (max-width: 72.250em) {
-  .navbar {
+  nav {
     margin: 0rem 5rem;
   }
 }
@@ -29,11 +29,11 @@
     order: 1;
   }
   
-  .navbar {
+  nav {
     text-align: center;
     margin: 0rem 0rem;
   }
-  .navbar img {
+  nav img {
     width: 10%;
     height: 10%;
   }

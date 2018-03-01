@@ -73,13 +73,13 @@ img {
 
 /* navbar =========================================== */
 
-.navbar {
+nav {
     text-align: center;
     margin: 0rem 15rem;
     background-color: white;
 }
 
-.navbar img {
+nav img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -387,7 +387,7 @@ textarea {
     margin-bottom: 2rem;
 }
 
-#style-guide .navbar {
+#style-guide nav {
     margin: 0;
 }
 
