@@ -14,15 +14,13 @@
 /* column grid */
 .grid-col {
   flex: 1;
-  padding: 2rem;
-  /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
+  padding: 2rem; 
 }
 
 /* wide column grid */
 .grid-mid {
   flex: 4;
   padding: 2rem;
-  /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
 .grid-journey {
@@ -52,6 +50,11 @@
 .grid-menu {
   flex: 1;
   padding: 0 2rem 2rem 0;
+}
+
+/* remove side padding from .grid-col for size icons */
+#sizes .grid-col {
+  padding: 2rem 0;
 }
 
 /* list structure =================================== */
