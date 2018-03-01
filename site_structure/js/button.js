@@ -2,7 +2,7 @@
 
 // go to menu page
 function clickMenu() {
-    window.location.href = "menu.html"
+    window.location.href = "menu.html#menu"
 }
 
 // go to order page
