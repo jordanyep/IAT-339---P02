@@ -24,7 +24,7 @@
 }
 
 .grid-journey {
-  flex: 10;
+  flex: 5;
   padding: 2rem;
 }
 
@@ -167,7 +167,7 @@ nav {
 
 #journey-content {
 /*  margin: 1rem 6rem;*/
-  display: flex;
+/*  display: flex;*/
 }
 
 #journey-content p {

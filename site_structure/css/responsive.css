@@ -24,6 +24,9 @@
     flex: 25;
     padding: 2rem;
   }
+  
+  [class^=journey-] {
+  padding: 8rem 2rem;
 
   .heading {
     padding: 8rem 0;
