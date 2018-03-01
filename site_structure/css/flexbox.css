@@ -153,11 +153,12 @@ nav {
 /* journey section ================================== */
 
 #content-section {
-  margin: 1rem 6rem;
+/*  margin: 1rem 6rem;*/
+  display: flex;
 }
 
 #content-section p {
-  padding-bottom: 2rem;
+/*  padding-bottom: 2rem;*/
 }
 
 [class^=journey-] h2 {
