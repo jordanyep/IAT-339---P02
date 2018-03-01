@@ -369,6 +369,12 @@ textarea {
 
 /* citations & style guide ========================== */
 
+code {
+    font-family: monospace;
+    color: #C59BA8;
+    font-size: 1rem;
+}
+
 #citations, #style-guide {
     margin: 4rem 7rem;
 }
@@ -385,6 +391,7 @@ textarea {
 #style-guide h3 {
     text-align: left;
     margin-bottom: 2rem;
+    padding-top: 0;
 }
 
 #style-guide nav {

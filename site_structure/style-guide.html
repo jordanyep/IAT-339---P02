@@ -22,26 +22,73 @@
         <h1>Style Guide</h1>
         <h2>Interactive Elements</h2>
         <h3>In-Text Link</h3>
-        <p>This is an example of an <a href="#">in-text link</a> that is very clicky. Hover over it. You know you want to.</p>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <p>
+              This is an example of an <a href="#">in-text link</a> that is very clicky.<br>
+              Hover over it. You know you want to.
+            </p>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>&lt;a href="#"&gt;in-text link&lt;/a&gt;</code>
+          </div>
+        </div>
 
         <hr>
 
         <h3>Navigation Button</h3>
-        <a href="#" class="nav-button nav-item">About</a>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <a href="#" class="nav-button nav-item">About</a>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>&lt;a href="#" class="nav-button nav-item"&gt;About&lt;/a&gt;</code>
+          </div>
+        </div>
 
         <hr>
 
         <h3>Form Buttons</h3>
-        <button class="primary-btn">place order</button>
-        <button class="secondary-btn">cancel</button>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <button class="primary-btn">place order</button>
+            <button class="secondary-btn">cancel</button>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>
+              &lt;button class="primary-btn"&gt;place order&lt;/button&gt;<br>
+              &lt;button class="secondary-btn"&gt;cancel&lt;/button&gt;
+            </code>
+          </div>
+        </div>
 
         <hr>
 
         <h3>Text Input Field</h3>
-        <form id="contact-info-form">
-          <label for="name">Name:</label>
-          <input name="name" type="text" id="name" value="">
-        </form>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <form id="contact-info-form">
+              <label for="name">Name:</label>
+              <input name="name" type="text" id="name" value="">
+            </form>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>
+              &lt;form id="contact-info-form"&gt;<br>
+              &nbsp;&lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+              &nbsp;&lt;input name="name" type="text" id="name" value=""&gt;<br>
+              &lt;/form&gt;
+            </code>
+          </div>
+        </div>
       </section>
 
       <hr>
@@ -49,35 +96,88 @@
       <section id="text-style">
         <h2>Text Stylin'</h2>
         <h3>Three Heading Levels</h3>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>
+              &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+              &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+              &lt;h3&gt;Heading 3&lt;/h3&gt;
+            </code>
+          </div>
+        </div>
 
         <hr>
 
         <h3>Paragraph</h3>
-        <p>
-          This is an example of paragraph text. Paragraphs are everywhere. Embrace them.<br>
-          Important text are highlighted with either the <em>emphasis</em> tag or the <strong>strong</strong> tag.
-        </p>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <p>
+              This is an example of paragraph text. Paragraphs are everywhere. Embrace them. Important text are highlighted with either the <em>emphasis</em> tag or the <strong>strong</strong> tag.
+            </p>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>
+              &lt;p&gt;This is an example of paragraph text. Paragraphs are everywhere. Embrace them. Important text are highlighted with either the &lt;em&gt;emphasis&lt;/em&gt; tag or the &lt;strong&gt;strong&lt;/strong&gt; tag.&lt;/p&gt;
+            </code>
+          </div>
+        </div>
 
         <hr>
 
         <h3>Bulleted List</h3>
-        <ul>
-          <li>List Item 1</li>
-          <li>List Item 2</li>
-          <li>List Item 3</li>
-        </ul>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+            </ul>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>
+              &lt;ul&gt;<br>
+              &nbsp;&lt;li&gt;List Item 1&lt;/li&gt;<br>
+              &nbsp;&lt;li&gt;List Item 2&lt;/li&gt;<br>
+              &nbsp;&lt;li&gt;List Item 3&lt;/li&gt;<br>
+              &lt;/ul&gt;
+            </code>
+          </div>
+        </div>
 
         <hr>
 
         <h3>Numbered List</h3>
-        <ol>
-          <li>List Item 1</li>
-          <li>List Item 2</li>
-          <li>List Item 3</li>
-        </ol>
+        <div class="box">
+          <div class="grid-col">
+            <p><strong>Rendered Element</strong></p>
+            <ol>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+            </ol>
+          </div>
+          <div class="grid-col">
+            <p><strong>Code</strong></p>
+            <code>
+              &lt;ol&gt;<br>
+              &nbsp;&lt;li&gt;List Item 1&lt;/li&gt;<br>
+              &nbsp;&lt;li&gt;List Item 2&lt;/li&gt;<br>
+              &nbsp;&lt;li&gt;List Item 3&lt;/li&gt;<br>
+              &lt;/ol&gt;
+            </code>
+          </div>
+        </div>
       </section>
 
       <hr>
