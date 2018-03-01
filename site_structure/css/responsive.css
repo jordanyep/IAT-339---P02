@@ -126,9 +126,9 @@
 
   /* journey page ===================================== */
 
-  /* 
-  [will insert here later]
-  */
+  #journey-content .box {
+    padding: 0 2rem;
+  }
 
   /* about page ======================================= */
 
