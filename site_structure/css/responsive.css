@@ -1,46 +1,166 @@
+/* ~ 1156px */
 @media all and (max-width: 72.250em) {
   nav {
     margin: 0rem 5rem;
   }
 }
 
+/* ~ 776px */
 @media all and (max-width: 48.50em) {
+
+  /* grid structure =================================== */
 
   .box {
     flex-direction: column;
     justify-content: space-around;
   }
-  
-  
-  .grid-mid h2, .grid-mid .item-label {
-    text-align: center;
+
+  .grid-col {
+    padding: 0 2rem 0 2rem;
   }
 
-  #journey {
-    order: 2;
-  }
+  /* header & footer ================================== */
 
-  #about {
-    order: 3;
-  }
-
-  #logo {
-    order: 1;
-  }
+  /* rearrange navbar items */
+  #logo     { order: 1; }
+  #journey  { order: 2; }
+  #about    { order: 3; }
 
   nav {
     text-align: center;
     margin: 0rem 0rem;
   }
 
+  /* company logo */
   nav img {
     width: 10%;
     height: 10%;
   }
 
+  /* parallax header */
   .heading img {
     display: block;
     margin: 2rem 8rem;
     width: 60vw;
   }
+
+  footer {
+    margin-top: 0;
+  }
+
+  /* buttons ========================================== */
+
+  button {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  #buttons {
+    text-align: center;
+  }
+
+  /* menu page ======================================== */
+
+  #menu-content .box {
+    padding: 0 2rem;
+  }
+
+  #menu-content h1, #menu-content h2, #menu-content p {
+    text-align: center;
+  }
+
+  #menu-content img {
+    width: 50%;
+    margin: auto;
+  }
+
+  .grid-menu {
+    padding: 0 0 3rem 0;
+  }
+
+  #sizes img {
+    width: 30%;
+  }
+
+  #sizes h3 {
+    padding: 0.5rem 0;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+
+  /* product view page ================================ */
+
+  /* milkshake image */
+  #milkshake-content .grid-col img {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  /* flavour name & description */
+  #milkshake-content h1, #milkshake-content .item-label {
+    text-align: center;
+  }
+
+  /* journey page ===================================== */
+
+  /* 
+  [will insert here later]
+  */
+
+  /* about page ======================================= */
+
+  #about-content .box {
+    padding: 0 2rem;
+  }
+
+  .grid-list {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  ul, ol {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  /* special offers page ============================== */
+
+  /* 
+  [will insert here after page design is updated]
+  */
+
+  /* order pages ====================================== */
+
+  #order-content .box {
+    padding: 0 1rem;
+  }
+
+  .grid-order {
+    margin-right: 0;
+  }
+
+  /* order summary */
+  .grid-order-info {
+    margin-top: 3rem;
+  }
+
+  /* text area */
+  textarea {
+    width: 100%;
+    max-width: 100%;
+  }
 }
+
+/* ~ 425px */
+@media (max-width: 26.50em) {
+  /* 
+  will insert more responsive stuff here later
+  */
+}
+
+
+
+
+
