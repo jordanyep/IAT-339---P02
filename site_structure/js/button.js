@@ -2,7 +2,7 @@
 
 // go to menu page
 function clickMenu() {
-    window.location.href = "menu.html"
+    window.location.href = "menu.html#menu"
 }
 
 // go to order page
@@ -12,11 +12,11 @@ function clickOrder() {
 
 // go to order confirmation page
 function clickPlaceOrder() {
-    window.location.href = "order-confirm.html#content-section";
+    window.location.href = "order-confirm.html#order-content";
 }
 
 function clickConfirmOrder() {
-    window.location.href="order-complete.html#content-section";
+    window.location.href="order-complete.html#order-content";
 }
 
 // reset order page forms/checkboxes (clear fields)

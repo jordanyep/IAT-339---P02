@@ -38,7 +38,7 @@
     </section>
 
     <!-- page content -->
-    <section id="content-section"> 
+    <section id="about-content">
       <div class="box">
         <p class="grid-col">&nbsp;</p>
         <div class="grid-mid">
@@ -90,8 +90,10 @@
             <textarea name="request" id="request">Will the Central City branch be open during the upcoming holiday?</textarea>
           </form>
 
-          <button class="primary-btn" onclick="clickSubmit()">submit</button>
-          <button class="secondary-btn" onclick="clickCancelContact()">cancel</button>
+          <div id="buttons">
+            <button class="primary-btn" onclick="clickSubmit()">submit</button>
+            <button class="secondary-btn" onclick="clickCancelContact()">cancel</button>
+          </div>
 
           <!-- confirmation message (hidden, appears after submission) -->
           <p id="confirm-message" class="hidden" aria-hidden="true">Inquiry sent! Thank you for contacting The Milkshake Co.</p>
