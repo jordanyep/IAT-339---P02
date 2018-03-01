@@ -25,6 +25,16 @@
   /*border-right: 3px solid white;          /* temporary; only used to display grid lines; remove when content is added */
 }
 
+.grid-journey {
+  flex: 10;
+  padding: 2rem;
+}
+
+.grid-offers {
+  flex: 20;
+  padding: 2rem;
+}
+
 /* order page ======================================= */
 
 /* order form grid */
