@@ -152,12 +152,12 @@ nav {
 
 /* journey section ================================== */
 
-#content-section {
+#journey-content {
 /*  margin: 1rem 6rem;*/
   display: flex;
 }
 
-#content-section p {
+#journey-content p {
 /*  padding-bottom: 2rem;*/
 }
 
