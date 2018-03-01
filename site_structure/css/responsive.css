@@ -4,8 +4,8 @@
   }
 }
 
-@media all and (max-width: 48.50em) { 
-  
+@media all and (max-width: 48.50em) {
+
   .box {
     flex-direction: column;
     justify-content: space-around;
@@ -14,12 +14,11 @@
   
   .grid-mid h2, .grid-mid .item-label {
     text-align: center;
-    
   }
-  
+
   #journey {
-  order: 2;
-}
+    order: 2;
+  }
 
   #about {
     order: 3;
@@ -28,11 +27,12 @@
   #logo {
     order: 1;
   }
-  
+
   nav {
     text-align: center;
     margin: 0rem 0rem;
   }
+
   nav img {
     width: 10%;
     height: 10%;
@@ -43,5 +43,4 @@
     margin: 2rem 8rem;
     width: 80vw;
   }
-  
 }
