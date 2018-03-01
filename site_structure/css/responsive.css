@@ -17,6 +17,30 @@
 
   .grid-col {
     padding: 0 2rem 0 2rem;
+    flex: 0.5;
+  }
+  
+  .grid-journey {
+    flex: 25;
+    padding: 2rem;
+  }
+
+  .heading {
+    padding: 0rem;
+  }
+  
+  /* parallax header */
+  .heading img {
+    display: block;
+    margin: 2rem 8rem;
+    width: 60vw;
+  }
+  
+  mark {
+    width: 100%;
+    margin: 0 0 0 0;
+    margin-bottom: 1.5rem;
+    
   }
 
   /* header & footer ================================== */
@@ -36,15 +60,7 @@
     width: 10%;
     height: 10%;
   }
-  .heading {
-    padding: 0rem;
-  }
-  /* parallax header */
-  .heading img {
-    display: block;
-    margin: 2rem 8rem;
-    width: 60vw;
-  }
+  
 
   footer {
     margin-top: 0;
