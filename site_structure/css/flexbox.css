@@ -136,15 +136,6 @@ nav {
   width: 30vw;
 }
 
-.heading img, .heading h2 {
-  animation: fadein 2.5s;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 .heading-journey {
   background-image: url(../img/milkshakes-3.jpg);
 }
@@ -155,9 +146,14 @@ nav {
 
 .heading-home {
   background-image: url(../img/interior.jpg);
-  height: 100vh;
-  
+  height: 90vh;
+  animation: fadeIn 3.5s;
 }
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;} 
+} 
 
 .heading-offers {
   background-image: url(../img/milkshakes-2.jpg);
