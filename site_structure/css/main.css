@@ -76,6 +76,7 @@ img {
 .navbar {
     text-align: center;
     margin: 0rem 15rem;
+    background-color: white;
 }
 
 .navbar img {
@@ -372,11 +373,87 @@ textarea {
 
 /* citations & style guide ========================== */
 
-#citations {
-    margin: 3rem 5rem;
+#citations, #style-guide {
+    margin: 4rem 7rem;
 }
 
 #citations p {
     font-size: 0.8rem;
     margin-bottom: 1.5rem;
 }
+
+#style-guide p {
+    margin-bottom: 1.5rem;
+}
+
+#style-guide h3 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#style-guide .navbar {
+    margin: 0;
+}
+
+#text-style ul, #text-style ol {
+    margin-top: 0;
+}
+
+/* colour swatches */
+.white      { background-color: white; }
+.light-pink { background-color: #FAF5F5; border: solid 0.1rem rgba(114, 114, 114, 0.07); }
+.pink       { background-color: #C59BA8; }
+.violet     { background-color: #6E6C7B; color: #FAF5F5; }
+.orange     { background-color: #F19890; }
+.blue       { background-color: #84D3FA; }
+.swatch p   { margin-bottom: 0 !important; }
+
+/* product listing */
+#product-listing {
+    padding: 0 5rem;
+}
+
+#product-listing img {
+    -webkit-filter: drop-shadow(0.2rem 0.2rem 0.2rem #C9C9C9);
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem #C9C9C9);
+    transition: 0.45s;
+}
+
+#product-listing img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#product-listing a:hover {
+    padding: 0;
+    border-radius: 0;
+}
+
+#product-listing h3, #product-listing p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* grid structure */
+#grid-structure p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* for displaying the overall grid structure (used with grid elements in flexbox.css) */
+.display-grid {
+    background-color: white;
+    margin: 0;
+    border: 0.3rem solid #FAF5F5;
+}
+
+/* for displaying the navbar/footer grid structure */
+.span-full {
+    padding: 1.2rem;
+}
+
+/* for displaying the column grid structure*/
+.span-col {
+    padding: 1.2rem 1.2rem 20rem 1.2rem !important;
+}
+

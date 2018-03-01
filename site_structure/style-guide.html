@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>P02  |  Style Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amaranth:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  </head>
+
+  <body>
+    <section id="style-guide">
+      <section>
+        <h1>Style Guide</h1>
+        <h2>Interactive Elements</h2>
+        <h3>In-Text Link</h3>
+        <p>This is an example of an <a href="#">in-text link</a> that is very clicky. Hover over it. You know you want to.</p>
+
+        <hr>
+
+        <h3>Navigation Button</h3>
+        <a href="#" class="nav-button nav-item">About</a>
+
+        <hr>
+
+        <h3>Form Buttons</h3>
+        <button class="primary-btn">place order</button>
+        <button class="secondary-btn">cancel</button>
+
+        <hr>
+
+        <h3>Text Input Field</h3>
+        <form id="contact-info-form">
+          <label for="name">Name:</label>
+          <input name="name" type="text" id="name" value="">
+        </form>
+      </section>
+
+      <hr>
+
+      <section id="text-style">
+        <h2>Text Stylin'</h2>
+        <h3>Three Heading Levels</h3>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+
+        <hr>
+
+        <h3>Paragraph</h3>
+        <p>
+          This is an example of paragraph text. Paragraphs are everywhere. Embrace them.<br>
+          Important text are highlighted with either the <em>emphasis</em> tag or the <strong>strong</strong> tag.
+        </p>
+
+        <hr>
+
+        <h3>Bulleted List</h3>
+        <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ul>
+
+        <hr>
+
+        <h3>Numbered List</h3>
+        <ol>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ol>
+      </section>
+
+      <hr>
+
+      <section>
+        <h2>Combined Elements</h2>
+        <!-- main-nav is assigned to the h3 element as an anchor point for the nav items when clicked -->
+        <h3 id="main-nav">Main Navigation</h3>
+        <nav class="navbar box">
+          <a href="#main-nav" id="journey" class="nav-button nav-item">Journey</a>
+          <a href="#main-nav" id="about" class="nav-button nav-item">About</a>
+          <a href="#main-nav" id="logo" class="nav-button nav-item" ><img src="img/company-logo.png" alt="The Milkshake Co. logo"></a>
+          <a href="#main-nav" id="offers" class="nav-button nav-item">Special Offers</a>
+          <a href="#main-nav" id="order" class="nav-button nav-item">Order</a>
+        </nav>
+
+        <hr>
+
+        <h3>Product Listing</h3>
+        <section id="product-listing">
+          <div class="box">
+            <div class="grid-menu">
+              <a href="#product-listing">
+                <img src="img/chocolate.png" alt="Chocolate milkshake">
+              </a>
+              <h3><a href="#product-listing">Rusty Chocolate</a></h3>
+              <p class="item-label">Parti for one, please</p>
+            </div>
+            <div class="grid-menu">
+              <a href="#product-listing">
+                <img src="img/cheesecake.png" alt="Cheesecake milkshake">
+              </a>
+              <h3><a href="#product-listing">Aha! Cheesecake</a></h3>
+              <p class="item-label">For that Aha! moment</p>
+            </div>
+            <div class="grid-menu">
+              <a href="#product-listing">
+                <img src="img/mocha.png" alt="Mocha milkshake">
+              </a>
+              <h3><a href="#product-listing">Mocha Fahood</a></h3>
+              <p class="item-label">Named after a legend</p>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+
+        <h3>Grid Structure</h3>
+        <div id="grid-structure">
+          <p class="grid-col display-grid span-full">nav bar</p>
+          <div class="box">
+            <p class="grid-col display-grid span-col">col1</p>
+            <p class="grid-mid display-grid span-col">col2</p>
+            <p class="grid-col display-grid span-col">col3</p>
+          </div>
+          <p class="grid-col display-grid span-full">footer</p>
+        </div>
+
+        <hr>
+
+        <h3>Colour Swatches</h3>
+        <div class="box swatch">
+          <p class="grid-col white">#FFFFFF</p>
+          <p class="grid-col light-pink">#FAF5F5</p>
+          <p class="grid-col pink">#C59BA8</p>
+        </div>
+        <div class="box swatch">
+          <p class="grid-col violet">#6E6C7B</p>
+          <p class="grid-col orange">#F19890</p>
+          <p class="grid-col blue">#84D3FA</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- footer bar -->
+    <footer class="box">
+      <div class="grid-col">
+        <h3>IAT 339&nbsp;&nbsp;|&nbsp;&nbsp;P02</h3>
+        <p>Copyright © 2018<br>Averi Balleza &amp; Jordan Yep</p>
+      </div>
+
+      <div class="grid-col">
+        <h3>External Links</h3>
+        <a href="menu.html">The Milkshake Co.</a><br>
+        <a href="citations.html">Citations</a><br>
+        <a href="https://github.com/jordanyep/IAT-339---P02">Git Repository</a>
+      </div>
+    </footer>
+  </body>
+</html>
