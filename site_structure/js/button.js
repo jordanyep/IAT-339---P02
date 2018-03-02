@@ -25,7 +25,6 @@ function clickCancelOrder() {
     document.getElementById("number").value = "";
     document.getElementById("request").value = "";
 
-    // *** there's probably a better way to do this haha... ***
     document.getElementById("topping-1").checked = false;
     document.getElementById("topping-2").checked = false;
     document.getElementById("topping-3").checked = false;

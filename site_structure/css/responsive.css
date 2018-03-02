@@ -5,9 +5,6 @@
   nav {
     margin: 0rem 5rem;
   }
-
-  /* grid structure :::::::::::::::::: */
-  
 }
 
 /* ~ 776px ====================================================================== */
@@ -24,12 +21,12 @@
     padding: 0 2rem 0 2rem;
     flex: 0.5;
   }
-  
+
   .grid-journey {
     flex: 25;
     padding: 2rem;
   }
-  
+
   [class^=journey-] {
     padding: 8rem 2rem;
   }
@@ -37,19 +34,18 @@
   .heading {
     padding: 8rem 0;
   }
-  
+
   /* parallax header */
   .heading img {
     display: block;
     margin: 2rem 8rem;
     width: 60vw;
   }
-  
+
   mark {
     width: 100%;
     margin: 0 0 0 0;
     margin-bottom: 1.5rem;
-    
   }
 
   /* header & footer ::::::::::::::::: */
@@ -151,12 +147,6 @@
     margin-top: 1rem;
   }
 
-  /* special offers page ::::::::::::: */
-
-  /* 
-  [will insert here after page design is updated]
-  */
-
   /* order pages ::::::::::::::::::::: */
 
   #order-content .box {
@@ -192,18 +182,6 @@
     margin-bottom: 0;
   }
 }
-
-/* ~ 425px ====================================================================== */
-@media (max-width: 26.50em) {
-
-}
-
-/* ~320px ====================================================================== */
-@media (max-width: 20em) {
-
-}
-
-
 
 
 
