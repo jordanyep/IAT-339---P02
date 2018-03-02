@@ -1,14 +1,19 @@
-/* ~ 1156px */
+/* ~ 1156px ====================================================================== */
 @media all and (max-width: 72.250em) {
+
+  /* navbar :::::::::::::::::::::::::: */
   nav {
     margin: 0rem 5rem;
   }
+
+  /* grid structure :::::::::::::::::: */
+  
 }
 
-/* ~ 776px */
+/* ~ 776px ====================================================================== */
 @media all and (max-width: 48.50em) {
 
-  /* grid structure =================================== */
+  /* grid structure :::::::::::::::::: */
 
   .box {
     flex-direction: column;
@@ -47,7 +52,7 @@
     
   }
 
-  /* header & footer ================================== */
+  /* header & footer ::::::::::::::::: */
 
   /* rearrange navbar items */
   #logo     { order: 1; }
@@ -69,7 +74,7 @@
     margin-top: 0;
   }
 
-  /* buttons ========================================== */
+  /* buttons ::::::::::::::::::::::::: */
 
   button {
     width: 100%;
@@ -82,7 +87,7 @@
     text-align: center;
   }
 
-  /* menu page ======================================== */
+  /* menu page ::::::::::::::::::::::: */
 
   #menu-content .box {
     padding: 0 2rem;
@@ -111,7 +116,7 @@
     background-color: white;
   }
 
-  /* product view page ================================ */
+  /* product view page ::::::::::::::: */
 
   /* milkshake image */
   #milkshake-content .grid-col img {
@@ -124,13 +129,13 @@
     text-align: center;
   }
 
-  /* journey page ===================================== */
+  /* journey page :::::::::::::::::::: */
 
   #journey-content .box {
     padding: 0 2rem;
   }
 
-  /* about page ======================================= */
+  /* about page :::::::::::::::::::::: */
 
   #about-content .box {
     padding: 0 2rem;
@@ -146,13 +151,13 @@
     margin-top: 1rem;
   }
 
-  /* special offers page ============================== */
+  /* special offers page ::::::::::::: */
 
   /* 
   [will insert here after page design is updated]
   */
 
-  /* order pages ====================================== */
+  /* order pages ::::::::::::::::::::: */
 
   #order-content .box {
     padding: 0 1rem;
@@ -174,10 +179,10 @@
   }
 }
 
-/* ~530px */
+/* ~530px ====================================================================== */
 @media (max-width: 33em) {
 
-  /* menu page ======================================== */
+  /* menu page ::::::::::::::::::::::: */
 
   #sizes img {
     width: 40%;
@@ -188,12 +193,12 @@
   }
 }
 
-/* ~ 425px */
+/* ~ 425px ====================================================================== */
 @media (max-width: 26.50em) {
 
 }
 
-/* ~320px */
+/* ~320px ====================================================================== */
 @media (max-width: 20em) {
 
 }
