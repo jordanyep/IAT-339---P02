@@ -166,7 +166,6 @@ nav {
 .heading-home {
   background-image: url(../img/interior.jpg);
   height: 90vh;
-  animation: fadeIn 3.5s;
 }
 
 /* journey section ================================== */
@@ -211,6 +210,12 @@ nav {
 }
 .journey-5 {
   background-image: url(../img/milkshakes.jpg);
+}
+
+.heading-home img, .heading-home h2{
+  animation: fadeIn 2.5s forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
 }
 
 @keyframes fadeIn {
